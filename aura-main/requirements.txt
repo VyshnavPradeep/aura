@@ -1,0 +1,38 @@
+# FastAPI and Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+
+# ML and Embeddings
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+rank-bm25==0.2.2
+
+# LLM APIs
+anthropic==0.18.1
+openai==1.12.0
+google-generativeai==0.3.2  # Gemini 3 API
+
+# Configuration Management
+pydantic-settings==2.1.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Code Analysis
+tree-sitter==0.20.2
+
+# Graph Database
+neo4j==5.15.0  # Neo4j driver for dependency graphs
+
+# Security Analysis
+semgrep==1.55.0  # Static analysis for vulnerability detection
+
+# Utilities
+python-dotenv==1.0.0
+aiofiles==23.2.1  # Async file operations
